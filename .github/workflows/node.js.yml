@@ -29,4 +29,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: dagonzadub/cct-node
-        tag_with_ref: true
+        tag_with_sha: true
